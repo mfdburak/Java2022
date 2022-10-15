@@ -19,7 +19,7 @@ public class Main {
         }
         String mesaj="";
         if(varMi){
-            mesaj = "Sayı mevcuttur"+aranacak;
+            mesaj = "Sayı mevcuttur:"+aranacak;
             mesajVer(mesaj);
         }else{
             mesajVer("Sayı mevcut değildir:"+aranacak);
@@ -27,6 +27,7 @@ public class Main {
 
     }
     public static void mesajVer(String mesaj){
+
         System.out.println(mesaj);
     }
 }

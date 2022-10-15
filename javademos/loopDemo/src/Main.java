@@ -21,7 +21,7 @@ public class Main {
         do{
             System.out.println(j);
             j+=2;
-        }while(j<10);
+        }while(j<110);
         System.out.println("Do - While Döngüsü Bitti.");
     }
 }
